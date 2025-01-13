@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thyemeleaf.org"></html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#",id="Aluno"
+   name="Aluno" th:action="@{/Aluno}" th:object="${aluno}"method="post">
+   <label>Nome:</label><input type="text" name="nome" id="nome" th:field="*{nome}"><br>
+   <label>CPF:</label><input type="text" name="cpf" id="cpf" th:field="*{cpf}"><br>
+   <label>Idade:</label><input type="text" name="Idade" id="idade" th:field="*{idade}"><br>
+   <label>Senha:</label><input type="text" name="senha" id="senha" th:field="*{senha}"><br>
+   <label>Email pessoal:</label><input type="text" name="email_pessoal" id="email_pessoal" th:field="*{email_pessoal}"><br>
+   <label>Matricula:</label><input type="text" name="matricula" id="matricula" th:field="*{matricula}"><br>
+
+</form> 
+    
+
+
+
+   
+</body>
+</html>
