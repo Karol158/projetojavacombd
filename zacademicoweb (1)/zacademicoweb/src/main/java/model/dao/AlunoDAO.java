@@ -1,8 +1,10 @@
 package model.dao;
 
 import org.springframework.jdbc.core.simple.JdbcClient;
+import org.springframework.stereotype.Repository;
 
 import model.Aluno;
+@Repository
 
 public class AlunoDAO {
 private final JdbcClient jdbcClient;

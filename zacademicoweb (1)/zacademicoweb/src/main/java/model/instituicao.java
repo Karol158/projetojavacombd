@@ -1,4 +1,4 @@
-package cadastrousario;
+package model;
 
 public interface instituicao {
 public void printInfo();

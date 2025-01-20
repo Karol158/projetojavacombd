@@ -1,6 +1,6 @@
- package br.ifpe.jaboatao.zacademicoweb.model;
+ package model;
 
- package cadastrousario;
+
 
  public class Usuario {
      private String nome;

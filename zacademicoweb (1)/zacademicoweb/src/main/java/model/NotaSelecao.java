@@ -1,4 +1,4 @@
-package  br.ifpe.jaboatao.zacademicoweb;
+package model;
 
 public class NotaSelecao {
    private  String disciplina;

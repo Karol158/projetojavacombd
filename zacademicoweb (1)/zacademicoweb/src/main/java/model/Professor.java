@@ -1,4 +1,4 @@
-package br.ifpe.jaboatao.zacademicoweb.model;
+package model;
 
 public class Professor extends Usuario  {
     private String  siape;
